@@ -9,11 +9,11 @@
 </head>
 <body>
 	<h1>회원가입</h1>
-	<form action="/helloweb/join.jsp" method="post">
+	<form action="/helloweb/join.jsp" method="POST">
 		이메일 : <input type = "text" name = "email" value=""/>
 		<br/><br/>
 		
-		비밀번호 : <input type = "password" />
+		비밀번호 : <input type = "password" name = "password"/>
 		<br/><br/>
 		
 		생년 : 
