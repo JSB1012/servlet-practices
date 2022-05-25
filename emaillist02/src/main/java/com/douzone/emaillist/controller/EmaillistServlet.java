@@ -20,6 +20,7 @@ public class EmaillistServlet extends HttpServlet {
 		request.setCharacterEncoding("utf-8");
 
 		String action = request.getParameter("a"); // 임의로 지정한거 a
+		
 		if ("list".equals(action)) {
 
 		} else if ("form".equals(action)) {
