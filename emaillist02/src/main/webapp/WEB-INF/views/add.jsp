@@ -4,7 +4,7 @@
 	pageEncoding="UTF-8"%>
 
 <%
-	request.setCharacterEncoding("utf-8");
+request.setCharacterEncoding("utf-8");
 	
 	String firsName = request.getParameter("firstName");
 	String lastName = request.getParameter("lastName");

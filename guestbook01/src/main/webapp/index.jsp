@@ -2,9 +2,9 @@
 <%@ page import="java.util.List"%>
 <%@page import="com.douzone.guestbook.dao.GuestBookDao"%>
 <%@page import="com.douzone.guestbook.vo.GuestBookVo"%>
-	<% 
-		List<GuestBookVo> list = new GuestBookDao().findAll();
-		int index = list.size();
+	<%
+	List<GuestBookVo> list = new GuestBookDao().findAll();
+			int index = list.size();
 	%>
 
 <html>
@@ -31,7 +31,7 @@
 	
 	<%
 		for(GuestBookVo vo : list) {
-	%>
+		%>
 	<table width=510 border=1>
 		<tr>
 			<td><%=index-- %></td>
